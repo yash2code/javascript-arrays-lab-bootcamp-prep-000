@@ -1,1 +1,1 @@
-const app = ['Milo', 'Otis', 'Garfield']
+const kittens = ['Milo', 'Otis', 'Garfield']
