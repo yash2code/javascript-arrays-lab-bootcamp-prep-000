@@ -31,3 +31,15 @@ function prependKitten(name) {
   a.unshift(name)
   return a
 }
+
+function removeLastKitten() {
+  var a = [...kittens]
+  a.pop()
+  return a
+}
+
+function removeFirstKitten() {
+  var a = [...kittens]
+  a.shift()
+  return a
+}
